@@ -1,1 +1,41 @@
+LATIHAN 1
+Kodingan yang Anda berikan adalah program sederhana dalam bahasa Java yang melakukan operasi aritmatika pada dua angka yang diberikan. Berikut adalah penjelasan singkat untuk setiap bagian program:
 
+1. Pada baris pertama, terdapat komentar yang menyatakan lisensi dan dapat diubah dengan mengklik link yang diberikan.
+
+2. Program kemudian mendeklarasikan kelas `AritmaticOperasi`.
+
+3. Pada baris berikutnya, ada metode `main` yang merupakan metode utama yang akan dieksekusi saat program dijalankan.
+
+4. Baris `int a = Integer.parseInt(args[0]);` dan `int b = Integer.parseInt(args[1]);` digunakan untuk mengambil dua argumen angka yang diberikan saat program dijalankan. Argumen ini akan diubah menjadi tipe data integer dan disimpan dalam variabel `a` dan `b` masing-masing.
+
+5. Baris `Scanner in = new Scanner(System.in);` membuat objek `Scanner` yang digunakan untuk menerima input dari pengguna.
+
+6. Selanjutnya, program melakukan operasi aritmatika dengan menghitung jumlah (`sum`), selisih (`difference`), perkalian (`product`), dan pembagian (`quotient`) dari angka `a` dan `b`.
+
+7. Setiap hasil operasi aritmatika kemudian dicetak menggunakan pernyataan `System.out.println()`.
+
+8. Program berakhir setelah mencetak semua hasil operasi aritmatika.
+
+Dalam menjalankan program ini, Anda dapat memberikan dua argumen angka saat menjalankannya. Misalnya, jika Anda ingin menjalankan program dengan angka 5 dan 3, Anda dapat menulis `java AritmaticOperasi 5 3` pada baris perintah.
+
+Semoga penjelasan ini membantu! Jika Anda memiliki pertanyaan lebih lanjut, silakan beri tahu saya.
+
+LATIHAN 2
+Kodingan yang Anda berikan adalah program sederhana dalam bahasa Java yang mencetak elemen-elemen array argumen baris perintah. Berikut adalah penjelasan singkat untuk setiap bagian program:
+
+Pada baris pertama, terdapat komentar yang menyatakan lisensi dan dapat diubah dengan mengklik link yang diberikan.
+
+Program kemudian mendeklarasikan kelas latihan8_soal1.
+
+Pada baris berikutnya, ada metode main yang merupakan metode utama yang akan dieksekusi saat program dijalankan.
+
+Dalam metode main, terdapat loop for yang berjalan dari i = 0 hingga i <= 4. Ini berarti loop akan berjalan sebanyak 5 kali.
+
+Pada setiap iterasi loop, pernyataan System.out.println("\n" + args[i]); digunakan untuk mencetak elemen ke-i dari array args. "\n" digunakan untuk mencetak baris baru sebelum setiap elemen argumen.
+
+Program akan mencetak elemen-elemen array argumen baris perintah sebanyak 5 kali, sesuai dengan jumlah iterasi loop.
+
+Dalam menjalankan program ini, Anda perlu memberikan lima argumen saat menjalankannya. Misalnya, jika Anda ingin menjalankan program dengan argumen "Hello", "World", "OpenAI", "Chatbot", dan "Java", Anda dapat menulis java latihan8_soal1 Hello World OpenAI Chatbot Java pada baris perintah.
+
+Harap diingat bahwa dalam kodingan yang Anda berikan, tidak ada pengecekan apakah ada lima argumen yang diberikan. Jadi, pastikan untuk memberikan lima argumen saat menjalankan program, atau Anda dapat menambahkan pengecekan agar tidak terjadi kesalahan saat menjalankan program.
